@@ -1,0 +1,128 @@
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 90%;
+    background: #ffe6f2;
+    margin-left: 50px;
+    margin-top: 50px;
+
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card1:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card2:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card3:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card4:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+    padding: 2px 20px;
+}
+
+.card1 {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 55%;
+  height: 470px;
+  float: left;
+  margin-left: 50px;
+  margin-top: 50px;
+  background-image: url('card1bg.jpg');
+  background-size: cover;
+
+}
+.card2 {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 400px;
+  height: 150px;
+  margin-left: 35px;
+  margin-top: 50px;
+  padding-top: 10px;
+  background-image: url('junkai.jpg');
+  background-size: cover;
+  border-style: none;
+  float: left;
+  word-wrap: break-word;
+}
+
+.card3 {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 400px;
+  height: 150px;
+  margin-top: 10px;
+  margin-left: 35px;
+  padding-top: 10px;
+  background-image: url('yuan.jpg');
+  background-size: cover;
+  border-style: none;
+  float: left;
+  word-wrap: break-word;
+}
+
+.card4 {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 400px;
+  height: 150px;
+  margin-top: 10px;
+  margin-left: 35px;
+  padding-top: 10px;
+  background-image: url('xian.jpg');
+   background-size: cover;
+  border-style: none;
+  float: left;
+  word-wrap: break-word;
+}
+
+.right {
+    margin:0px 10px 10px 0px;
+}
+
+.textbox {
+  width: 100%;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+
+.button {
+    background-color: #778899;
+    border: none;
+    color: White;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 8px;
+    font-size: 16px;
+    width: 100%;
+    vertical-align: middle;
+    margin-bottom: 20px;
+}
+
+.body {
+    background: url('cardbg.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.textitem {
+  display: inline;
+}
