@@ -16,8 +16,6 @@ function choosexian() {
 }
 
 function Continue() {
-  confirm("Are you want to buy?")
-
   if (document.getElementById('r1').checked) {
   list[2] = document.getElementById('r1').value;
 } else if (document.getElementById('r2').checked) {
@@ -27,7 +25,25 @@ function Continue() {
 }
   list[3] = document.getElementById('namecard').value;
   list[4] = document.getElementById('numbercard').value;
-  document.getElementById("c").innerHTML = list[0]+"<br>"+" by "
-        +list[2]+" Name of Card is : "+list[3]
-        +" ,Number of Card is : "+list[4];
+
+  if (list[0] === undefined) {
+    alert("Please check Poster choice")
+    wait(3000);
+  } else if (list[2] === undefined) {
+    alert("Please check your card type");
+    wait(3000);
+  } else if (list[3] === "") {
+    alert("Please check name of card");
+    wait(3000);
+  } else if (list[4] === ""){
+    alert("Please check number of card");
+    wait(3000);
+  }
+
+  if (confirm("Are you want to buy?")===true) {
+    document.getElementById("c").innerHTML = list[0]+"<br>"+" by "
+          +list[2]+" Name of Card is : "+list[3]
+          +" ,Number of Card is : "+list[4];
+  }
+
 }
